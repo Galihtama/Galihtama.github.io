@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3100px;
+}
+nav {
+    height: 75px;
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+    box-sizing: border-box;
+    background: black no-repeat;
+}
+label.galih {
+    color: #25d216;
+    font-size: 35px;
+    line-height: 75px;
+    padding:0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 75px;
+    margin: 0 35px;
+    font-weight: bold;
+    position: relative;
+}
+nav ul li a {
+    color: white;
+    font-size: 30px;
+}
+.container {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.home {
+    width: 100%;
+    height: 643px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: black no-repeat;
+    padding: 60px;
+    margin:0;
+}
+.bungkus {
+    width: 1190px;
+    height: 416px;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.gambar {
+    width: 339px;
+    height: 416px;
+    float: right;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background: url('ku.png');
+    background-size: 339px 416px;
+}
+.plas {
+    width: 741px;
+    height: 379px;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 37px;
+}
+.hello {
+    width: 741px;
+    height: 72px;
+    font-size: 60px;
+    color: #07f0ff;
+    font-weight: bold;
+}
+.student {
+    width: 741px;
+    height: 72px;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin-top: 55px;
+}
+.gam {
+    width: 741px;
+    height: 53px;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.okeh {
+    width: 36px;
+    height: 50px;
+    background:url('lokasi.png') no-repeat;
+    background-size: 36px 50px;   
+    display: inline-block;
+}
+.teks {
+    width: 450px;
+    height: 22px;
+    margin-left: 36px;
+    color: white;
+    font-size: 18px;
+    margin-top: 29px;
+}
+.hp {
+    width: 30px;
+    height: 50px;
+    background:url('hp1.jpg') no-repeat;
+    background-size: 30px 50px; 
+    margin-left: 460px;
+    display: inline-block;
+    margin-top: 2px;
+    border-radius: 5px ;
+}
+.no {
+    width: 120px;
+    height: 22px;
+    margin-left: 38px;
+    color: white;
+    font-size: 18px;
+    margin-top: 27px;
+}
+hr {
+    width: 650px;
+    color: white;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.about {
+    width: 100%;
+    height: 612px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: black no-repeat;
+    margin:0;
+}
+.frame {
+    width: 1150px;
+    height: 459px;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 110px;
+    margin-left: 60px;
+}
+.rupa {
+    width: 316px;
+    height: 459px;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius:10px;
+    background: url('my.png') no-repeat;
+    background-size: 316px 459px;
+}
+.tulis{
+    width: 700px;
+    height: 390px;
+    margin-left: 130px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 50px;
+
+}
+.tulis h1 {
+    font-size: 65px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    width: 700px;
+    height: 70px;
+}
+.tulisan {
+    width: 700px;
+    height: 320px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.hi {
+    font-size: 36px;
+    color: white;
+    margin-top: 40px;
+    width: 700px;
+    height: 85px;
+}
+.saya {
+    font-size: 36px;
+    color: white;
+    width: 700px;
+    height: 195px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.dah {
+    width: 700px;
+    height: 40px;
+}
+.gal {
+    height: 40px;
+    width: 425px;
+    margin-left: 177px;
+    background-size:500px 36px;
+    display: inline-block;
+}
+.tgl {
+    width: 700px;
+    height: 40px;
+}
+.tanggal {
+    height: 40px;
+    width: 428px;
+    background: black no-repeat;
+    background-size:500px 36px;
+    display: inline-block;
+}
+.k {
+    width: 700px;
+    height: 40px;
+}
+.kelas {
+    height: 40px;
+    width: 428px;
+    margin-left: 184px;
+    background-size:500px 36px;
+    display: inline-block;
+}
+.suka {
+    width: 700px;
+    height: 40px;
+}
+.hoby {
+    height: 40px;
+    width: 428px;
+    margin-left: 174px;
+    background-size:500px 36px;
+    display: inline-block;
+}
+.education {
+    width: 100%;
+    height: 568px;
+    display: inline-block;
+    box-sizing: border-box;
+    background:black no-repeat;
+}
+.educa {
+    width: 100%;
+    height: 355px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 170px;
+}
+.heding {
+    font-size: 65px;
+    font-weight: bold ;
+    color: #07f0ff;
+    text-align: center;
+    width: 100%;
+    height: 65px;
+    display: inline-block;
+}
+.list {
+    font-size: 40px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 360px;
+    width: 690px;
+    height: 190px;
+    display: inline-block;
+}
+ul.yaya {
+    list-style-type: square;
+    line-height: 45px;
+    display: inline-block;
+    color: white;
+}
+.experience {
+    width: 100%;
+    height: 745px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: black no-repeat;
+}
+.hed {
+    width: 100%;
+    height: 65px;
+    margin-top: 100px;
+    display: inline-block;
+}
+.expe {
+    font-size: 65px;
+    font-weight: bold ;
+    color: #07f0ff;
+    margin-left: 380px;
+    height: 65px;
+    display: inline-block;
+}
+.foto {
+    width: 100%;
+    height: 350px;
+    margin-top: 80px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.software {
+    width: 449px;
+    height: 350px;
+    margin-left: 80px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.software a b {
+    color: white;
+    font-size: 40px;
+    margin-left: 140px;
+    line-height: 150px;
+}  
+.pramuka {
+    width: 449px;
+    height: 350px;
+    margin-left: 280px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.pramuka a b {
+    color: white;
+    font-size: 40px;
+    margin-left: 140px;
+    line-height: 150px;
+}
+.contact {
+    width: 100%;
+    height: 641px;
+    background-color: black;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.wadah {
+    width: 1027px;
+    height: 437px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 170px;
+    margin-left: 131px;
+}
+.judul {
+    font-size: 65px;
+    color: #07f0ff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.tama {
+    width: 1000px;
+    height: 68px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+.ig {
+    width: 400px;
+    height: 68px;
+    display: inline-block;
+    box-sizing: border-box;
+} 
+.ig a {
+    font-size: 36px;
+    color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.fb {
+    width: 400px;
+    height: 68px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 100px;
+}
+.fb a {
+    font-size: 36px;
+    color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.pra {
+    width: 1000px;
+    height: 68px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.wa {
+    width: 400px;
+    height: 68px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.wa a{
+    font-size: 36px;
+    color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.yt {
+    width: 400px;
+    height: 68px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 100px;
+}
+.yt a{
+    font-size: 36px;
+    color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
