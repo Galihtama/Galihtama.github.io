@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+.teks{
+    color: #edb86a;
+    font-size: 50px;
+    text-align: center;
+    width: 635px;
+}
+.ya{
+    color: white;
+    font-size: 35px;
+    width: 635px;
+    height: 200px;
+    text-align: center;
+}
+.container {
+    width: 1379px;
+    height: 767px;
+    box-sizing: border-box;
+    padding-left: 80px;
+    margin-top: 80px;
+}
+.foto1 {
+    width: 405px;
+    height: 767px;
+    float: left;
+    border-radius: 10px;
+    background-image: url('k.jpg');
+    background-size: 405px 767px;
+}
+.desk {
+    width: 785px;
+    height: 692px;
+    float: right;
+}
+.pi {
+    color: white;
+    font-size: 35px;
+    width: 635px;
+    height: 200px;
+}
+.duo {
+    color: white;
+    width: 436px;
+    font-size: 35px;
+}
+.duo a{
+    float: right
+}
+.hi {
+    float: right;
+}
+.mot {
+    color: white;
+    font-size: 35px;
+    width: 610px;
+    height: 100px;
+}
+.mt {
+    text-align: right;
+}
+.back {   
+    margin-top: 90px;
+    margin-left: 520px;
+    border-radius: 10px;
+}
+button{
+    width: 243px;
+    height: 73px;
+    background-color: #636265;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
